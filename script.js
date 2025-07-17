@@ -10,7 +10,7 @@
 		const row = document.createElement("tr");
 		for(let j=0;j<numberCols;j++){
 		const col = document.createElement("td");
-			col.innerHTML=`${i} ${j}`
+			col.innerHTML=`Row-${i} Column-${j}`
 		row.appendChild(col);
 	    }
 	    body.appendChild(row);
