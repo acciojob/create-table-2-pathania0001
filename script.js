@@ -1,6 +1,6 @@
 	function createTable() {
-		let numberRows = prompt("Input number of rows");
-       let numberCols = prompt("Input number of rows");
+		let numberRows = prompt("Input number of rows",2);
+       let numberCols = prompt("Input number of rows",2);
 		if(!numberCols || !numberRows)
 			alert("both row and cols are should be there")
      const table = document.getElementById("myTable");	
